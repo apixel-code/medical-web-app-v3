@@ -1,0 +1,196 @@
+{
+  "brand_identity": {
+    "name": "Lumina Medical Center",
+    "tone": "Professional, Compassionate, Advanced, Trustworthy",
+    "archetype": "The Caregiver & The Sage",
+    "mission": "To provide world-class medical care with a human touch, leveraging advanced technology for better health outcomes."
+  },
+  "typography": {
+    "headings": {
+      "family": "Outfit, sans-serif",
+      "weights": ["500", "600", "700"],
+      "usage": "Use for all section titles, hero headings, and card titles. Letter-spacing: -0.02em."
+    },
+    "body": {
+      "family": "Inter, sans-serif",
+      "weights": ["400", "500"],
+      "usage": "Use for paragraphs, inputs, and UI elements. Relaxed line-height (1.6)."
+    },
+    "mono": {
+      "family": "JetBrains Mono, monospace",
+      "usage": "Use for medical record numbers, dates, and technical data in the dashboard."
+    }
+  },
+  "colors": {
+    "theme": "light",
+    "palette": {
+      "primary": {
+        "main": "#0369a1",
+        "light": "#e0f2fe",
+        "dark": "#0c4a6e",
+        "description": "Deep Sky Blue. Represents cleanliness, trust, and professional medical care."
+      },
+      "secondary": {
+        "main": "#10b981",
+        "light": "#ecfdf5",
+        "dark": "#047857",
+        "description": "Emerald Green. Represents life, healing, and success."
+      },
+      "accent": {
+        "main": "#f43f5e",
+        "hover": "#e11d48",
+        "description": "Rose. Use sparingly for 'Emergency', 'Urgent', or 'Delete' actions."
+      },
+      "neutral": {
+        "bg_main": "#ffffff",
+        "bg_secondary": "#f8fafc",
+        "text_primary": "#0f172a",
+        "text_secondary": "#64748b",
+        "border": "#e2e8f0"
+      }
+    },
+    "gradients": {
+      "hero_overlay": "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(248,250,252,1) 100%)",
+      "subtle_glow": "radial-gradient(circle at 50% 50%, rgba(14, 165, 233, 0.15), rgba(255, 255, 255, 0))"
+    },
+    "forbidden_colors": ["#7351B7", "#1B93A4"]
+  },
+  "layout_strategies": {
+    "spacing_scale": {
+      "section_gap": "py-24 md:py-32",
+      "component_gap": "gap-8 md:gap-12",
+      "internal_padding": "p-6 md:p-8"
+    },
+    "grids": {
+      "marketing_bento": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+      "dashboard_dense": "grid grid-cols-1 md:grid-cols-12 gap-4",
+      "form_layout": "grid grid-cols-1 md:grid-cols-2 gap-6"
+    },
+    "containers": {
+      "max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "card_style": "bg-white rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow duration-300"
+    }
+  },
+  "component_styles": {
+    "buttons": {
+      "primary": "bg-primary text-white hover:bg-primary/90 rounded-full px-8 py-3 font-semibold shadow-lg shadow-primary/20 transition-all active:scale-95",
+      "secondary": "bg-white text-primary border border-primary/20 hover:bg-primary/5 rounded-full px-8 py-3 font-medium transition-all",
+      "destructive": "bg-accent-main text-white hover:bg-accent-hover rounded-md px-4 py-2 shadow-sm",
+      "ghost": "text-slate-600 hover:text-primary hover:bg-slate-100 rounded-md px-4 py-2"
+    },
+    "cards": {
+      "feature": "group relative overflow-hidden bg-white rounded-3xl p-8 border border-slate-100 hover:border-primary/20 transition-colors",
+      "doctor_profile": "bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow border border-slate-100",
+      "stat": "bg-slate-50 rounded-2xl p-6 border border-slate-100 flex flex-col items-center justify-center"
+    },
+    "inputs": {
+      "default": "rounded-lg border-slate-200 bg-white focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all p-3",
+      "error": "border-red-300 focus:ring-red-100"
+    }
+  },
+  "visual_enhancers": {
+    "shadows": {
+      "soft": "0 4px 20px -2px rgba(0, 0, 0, 0.05)",
+      "floating": "0 20px 40px -4px rgba(3, 105, 161, 0.1)"
+    },
+    "glassmorphism": {
+      "nav": "bg-white/80 backdrop-blur-lg border-b border-slate-200/50",
+      "overlay": "bg-slate-900/20 backdrop-blur-sm"
+    },
+    "border_radius": {
+      "standard": "rounded-xl",
+      "large": "rounded-3xl",
+      "full": "rounded-full"
+    },
+    "icons": {
+      "library": "Phosphor Icons (Duotone)",
+      "usage": "Use 'Duotone' weight for a premium, medical feel. Primary color for the main path, lighter opacity for the secondary path.",
+      "installation": "npm install @phosphor-icons/react"
+    }
+  },
+  "motion": {
+    "page_transition": {
+      "initial": { "opacity": 0, "y": 20 },
+      "animate": { "opacity": 1, "y": 0 },
+      "exit": { "opacity": 0, "y": -20 },
+      "transition": { "duration": 0.4, "ease": "easeOut" }
+    },
+    "hover_effects": {
+      "lift": "hover:-translate-y-1 transition-transform duration-300",
+      "glow": "hover:shadow-[0_0_20px_rgba(3,105,161,0.3)] transition-shadow duration-300"
+    },
+    "stagger": {
+      "container": { "hidden": { "opacity": 0 }, "show": { "opacity": 1, "transition": { "staggerChildren": 0.1 } } },
+      "item": { "hidden": { "opacity": 0, "y": 20 }, "show": { "opacity": 1, "y": 0 } }
+    }
+  },
+  "assets": {
+    "images": [
+      {
+        "category": "hero",
+        "url": "https://images.unsplash.com/photo-1764885517847-79d62138cc58",
+        "description": "Modern glass hospital building exterior, clean and welcoming."
+      },
+      {
+        "category": "about_building",
+        "url": "https://images.unsplash.com/photo-1769698678497-c41f0ab47c3e",
+        "description": "Contemporary medical center facade, good for 'About Us' or 'Locations'."
+      },
+      {
+        "category": "doctor_cmo",
+        "url": "https://images.unsplash.com/photo-1612523138351-4643808db8f3",
+        "description": "Male doctor, senior/experienced look (Chief Medical Officer)."
+      },
+      {
+        "category": "doctor_specialist_female",
+        "url": "https://images.unsplash.com/photo-1659353888906-adb3e0041693",
+        "description": "Female specialist in white coat, professional and approachable."
+      },
+      {
+        "category": "doctor_generic_male",
+        "url": "https://images.unsplash.com/photo-1645066928295-2506defde470",
+        "description": "Young male doctor, good for directory listing."
+      },
+      {
+        "category": "waiting_area",
+        "url": "https://images.unsplash.com/photo-1758654860024-9e352f70d1f9",
+        "description": "Clean, modern waiting area with chairs. Represents comfort."
+      }
+    ],
+    "placeholders": {
+      "logo": "Use a simple typographic logo with a medical cross icon (Phosphor: FirstAid).",
+      "map": "Use Google Maps Embed iframe (grayscale styled)."
+    }
+  },
+  "implementation_checklist": [
+    "Install dependencies: framer-motion, @phosphor-icons/react, date-fns, react-day-picker, recharts, sonner, clsx, tailwind-merge",
+    "Configure Tailwind: Add 'Outfit' font family, define custom colors (primary/secondary), set up container queries if needed.",
+    "Create Layouts: MainLayout (Navbar+Footer), DashboardLayout (Sidebar+Header), AuthLayout (Centered Box).",
+    "Build Base Components: Button (custom), Card, Input, Modal, Drawer (for mobile nav).",
+    "Develop Pages: Home (Hero -> Features -> Doctors -> CTA), Departments (Grid), Portal (Dashboard), Appointment (Form Wizard)."
+  ],
+  "accessibility": {
+    "checklist": [
+      "Ensure text contrast ratio >= 4.5:1 (use slate-600+ on white).",
+      "All images must have alt text.",
+      "Interactive elements must have focus rings (focus:ring-2).",
+      "Use semantic HTML (main, section, article, nav, aside).",
+      "Forms must have associated labels."
+    ]
+  },
+  "universal_guidelines": {
+    "dos": [
+      "Use copious white space.",
+      "Use subtle borders (slate-100) instead of heavy shadows.",
+      "Animate entry of elements.",
+      "Use 'sonner' for all toast notifications.",
+      "Use 'data-testid' on all interactive elements."
+    ],
+    "donts": [
+      "Do NOT use pure black (#000000). Use Slate-900 (#0f172a).",
+      "Do NOT use generic 'Bootstrap' column layouts. Use asymmetric grids.",
+      "Do NOT clutter the interface. Less is more in healthcare.",
+      "Do NOT use default browser alerts. Use custom Dialogs or Toasts."
+    ]
+  }
+}
