@@ -35,7 +35,7 @@ export default function Navbar() {
             <div className="w-9 h-9 rounded-xl bg-medical-blue flex items-center justify-center">
               <Plus className="w-5 h-5 text-white" strokeWidth={3} />
             </div>
-            <span className="font-heading font-bold text-lg text-foreground hidden sm:block">
+            <span className="font-heading font-bold text-lg text-foreground">
               Lumina <span className="text-medical-blue">Medical</span>
             </span>
           </Link>
