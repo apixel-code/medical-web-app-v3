@@ -1,9 +1,11 @@
-# Lumina Medical Center - Product Requirements Document
+# Modina Clinic & D. Center - Product Requirements Document
 
 ## Original Problem Statement
+
 Build a modern, professional, fully responsive hospital/medical center website and web application with: Homepage, About, Departments (9), Doctors directory, Online Appointment System, Patient Portal, Services, Blog, Contact Page, Admin Dashboard, Doctor Management.
 
 ## Architecture
+
 - **Frontend**: React 19 + Tailwind CSS + Shadcn UI + Framer Motion
 - **Backend**: FastAPI (Python) with Motor (async MongoDB)
 - **Database**: MongoDB (patients, doctors, appointments, blog, etc.)
@@ -11,11 +13,13 @@ Build a modern, professional, fully responsive hospital/medical center website a
 - **Design**: "Swiss Medical" aesthetic - Sky Blue primary, Emerald secondary
 
 ## User Personas
+
 1. **Patient**: Browse departments/doctors, book appointments, view prescriptions/reports, message doctors
 2. **Admin**: Manage appointments, patients, blog posts, view contact messages, see analytics
 3. **Public Visitor**: Browse website, learn about services, find doctors, read health blog
 
 ## Core Requirements
+
 - Mobile-first responsive design
 - WCAG-accessible
 - Secure patient data (JWT auth, role-based access)
@@ -23,6 +27,7 @@ Build a modern, professional, fully responsive hospital/medical center website a
 - Scalable MongoDB architecture
 
 ## What's Been Implemented (March 2026)
+
 - [x] Full backend API with 25+ endpoints
 - [x] JWT authentication with role-based access
 - [x] 9 departments with complete seed data
@@ -37,14 +42,18 @@ Build a modern, professional, fully responsive hospital/medical center website a
 - [x] Footer with emergency banner
 
 ## Test Results
+
 - Backend: 100% (23/23 tests passed)
 - Frontend: 85% (core functionality working)
 
 ## Prioritized Backlog
+
 ### P0 (Critical)
+
 - None remaining for MVP
 
 ### P1 (High)
+
 - Email notifications for appointment confirmations
 - SMS notifications via Twilio
 - Payment gateway (Stripe) for paid appointments
@@ -52,6 +61,7 @@ Build a modern, professional, fully responsive hospital/medical center website a
 - File upload for patient documents
 
 ### P2 (Medium)
+
 - Doctor schedule management (admin-side)
 - Insurance verification integration
 - Advanced appointment conflict detection
@@ -59,6 +69,7 @@ Build a modern, professional, fully responsive hospital/medical center website a
 - Search engine optimization (meta tags, sitemap)
 
 ### Next Tasks
+
 1. Add email/SMS notifications for appointments
 2. Integrate Stripe for paid consultations
 3. Add file upload for prescriptions/reports (PDFs)

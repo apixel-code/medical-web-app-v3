@@ -1,5 +1,5 @@
+import { ArrowRight, Clock, Mail, MapPin, Phone, Plus } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { Plus, Phone, Mail, MapPin, Clock, ArrowRight } from 'lucide-react';
 
 const footerLinks = {
   'Quick Links': [
@@ -55,7 +55,7 @@ export default function Footer() {
                 <Plus className="w-6 h-6 text-white" strokeWidth={3} />
               </div>
               <span className="font-heading font-bold text-xl text-white">
-                Lumina <span className="text-sky-400">Medical</span>
+                Modina Clinic <span className="text-sky-400">& D. Center</span>
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 max-w-sm">
@@ -65,8 +65,8 @@ export default function Footer() {
               <a href="tel:+15550100" className="flex items-center gap-3 text-slate-400 hover:text-sky-400 transition-colors">
                 <Phone className="w-4 h-4 text-medical-blue" /> +1 (555) 0100
               </a>
-              <a href="mailto:info@luminamedical.com" className="flex items-center gap-3 text-slate-400 hover:text-sky-400 transition-colors">
-                <Mail className="w-4 h-4 text-medical-blue" /> info@luminamedical.com
+              <a href="mailto:info@modinaclinic.com" className="flex items-center gap-3 text-slate-400 hover:text-sky-400 transition-colors">
+                <Mail className="w-4 h-4 text-medical-blue" /> info@modinaclinic.com
               </a>
               <div className="flex items-center gap-3 text-slate-400">
                 <MapPin className="w-4 h-4 text-medical-blue shrink-0" /> 1200 Healthcare Blvd, Medical City, CA 90210
@@ -99,7 +99,7 @@ export default function Footer() {
       {/* Bottom */}
       <div className="border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} Lumina Medical Center. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Modina Clinic & D. Center. All rights reserved.</p>
           <p>Committed to Excellence in Healthcare</p>
         </div>
       </div>

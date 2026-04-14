@@ -1,13 +1,13 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useAuth } from '@/context/AuthContext';
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Badge } from '@/components/ui/badge';
+import { useAuth } from '@/context/AuthContext';
+import { Lock, Mail, Phone, Plus, User } from 'lucide-react';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
-import { Plus, Mail, Lock, User, Phone } from 'lucide-react';
 
 export default function AuthPage() {
   const { login, register } = useAuth();
@@ -53,7 +53,7 @@ export default function AuthPage() {
           <div className="w-14 h-14 rounded-2xl bg-medical-blue flex items-center justify-center mx-auto mb-4">
             <Plus className="w-8 h-8 text-white" strokeWidth={3} />
           </div>
-          <h1 className="font-heading font-bold text-2xl text-slate-900">Lumina Medical Center</h1>
+          <h1 className="font-heading font-bold text-2xl text-slate-900">Modina Clinic & D. Center</h1>
           <p className="text-sm text-slate-500 mt-1">Access your patient portal</p>
         </div>
 

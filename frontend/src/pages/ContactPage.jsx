@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import api from '@/lib/api';
+import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Badge } from '@/components/ui/badge';
+import api from '@/lib/api';
+import { CheckCircle, Clock, Mail, MapPin, Phone, Send } from 'lucide-react';
+import { useState } from 'react';
 import { toast } from 'sonner';
-import { Phone, Mail, MapPin, Clock, Send, CheckCircle } from 'lucide-react';
 
 const contactInfo = [
   { icon: Phone, label: 'Phone', value: '+1 (555) 0100', href: 'tel:+15550100' },
@@ -142,7 +142,7 @@ export default function ContactPage() {
           <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm" style={{ height: '400px' }}>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.7152203584424!2d-118.2941!3d34.0522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1640000000000!5m2!1sen!2sus"
-              width="100%" height="100%" style={{ border: 0, filter: 'grayscale(30%)' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Lumina Medical Center Location"
+              width="100%" height="100%" style={{ border: 0, filter: 'grayscale(30%)' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Modina Clinic & D. Center Location"
               data-testid="google-map"
             />
           </div>

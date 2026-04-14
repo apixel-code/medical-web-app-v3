@@ -1,13 +1,28 @@
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import api from '@/lib/api';
-import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import api from '@/lib/api';
 import {
-  CalendarDays, ArrowRight, Phone, Star, Heart, Brain, Bone,
-  Baby, Scan, Shield, Activity, Stethoscope, Clock, Users, Award, Building2,
-  ChevronRight, Quote, Search
+    Activity,
+    ArrowRight,
+    Award,
+    Baby,
+    Bone,
+    Brain,
+    Building2,
+    CalendarDays,
+    ChevronRight,
+    Heart,
+    Phone,
+    Quote,
+    Scan,
+    Search,
+    Shield,
+    Star,
+    Stethoscope,
+    Users
 } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const iconMap = { Heart, Brain, Bone, Baby, Scan, Shield, Activity, Stethoscope };
 
@@ -77,7 +92,7 @@ export default function HomePage() {
             </div>
             <div className="relative hidden lg:block">
               <div className="rounded-3xl overflow-hidden shadow-2xl shadow-medical-blue/10 border border-slate-100">
-                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=700&h=500&fit=crop" alt="Lumina Medical Center" className="w-full h-[480px] object-cover" />
+                <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=700&h=500&fit=crop" alt="Modina Clinic & D. Center" className="w-full h-[480px] object-cover" />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-4 shadow-lg border border-slate-100 flex items-center gap-3">
                 <div className="w-12 h-12 rounded-full bg-medical-emerald-light flex items-center justify-center">

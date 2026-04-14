@@ -1,8 +1,8 @@
 import { Badge } from '@/components/ui/badge';
-import { Award, Target, Eye, Clock, Shield, Users, Microscope, Heart, Star, Building2 } from 'lucide-react';
+import { Award, Building2, Clock, Eye, Heart, Microscope, Shield, Star, Target, Users } from 'lucide-react';
 
 const timeline = [
-  { year: '1995', title: 'Foundation', desc: 'Lumina Medical Center was founded with a vision to provide world-class healthcare.' },
+  { year: '1995', title: 'Foundation', desc: 'Modina Clinic & D. Center was founded with a vision to provide world-class healthcare.' },
   { year: '2002', title: 'Expansion', desc: 'Added 5 new specialized departments and 200-bed capacity.' },
   { year: '2010', title: 'Technology Upgrade', desc: 'Introduced robotic surgery and advanced diagnostic imaging.' },
   { year: '2018', title: 'Research Center', desc: 'Launched dedicated medical research and innovation center.' },
@@ -43,14 +43,14 @@ export default function AboutPage() {
                 A Legacy of <span className="text-medical-blue">Healing</span> Since 1995
               </h1>
               <p className="text-base md:text-lg text-slate-600 leading-relaxed mb-6">
-                Lumina Medical Center has been at the forefront of healthcare innovation for over 30 years. We combine cutting-edge technology with compassionate care to deliver exceptional medical outcomes.
+                Modina Clinic & D. Center has been at the forefront of healthcare innovation for over 30 years. We combine cutting-edge technology with compassionate care to deliver exceptional medical outcomes.
               </p>
               <p className="text-slate-500 leading-relaxed">
                 Our 500+ bed facility serves over 50,000 patients annually, supported by a team of 200+ specialists across 9 specialized departments. We are committed to advancing medical science while keeping the human touch at the center of everything we do.
               </p>
             </div>
             <div className="rounded-3xl overflow-hidden shadow-xl border border-slate-100">
-              <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=700&h=500&fit=crop" alt="Lumina Medical Center Building" className="w-full h-[400px] object-cover" />
+              <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=700&h=500&fit=crop" alt="Modina Clinic & D. Center Building" className="w-full h-[400px] object-cover" />
             </div>
           </div>
         </div>

@@ -1,10 +1,10 @@
+import { Button } from '@/components/ui/button';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
+import { useAuth } from '@/context/AuthContext';
+import { CalendarDays, LayoutDashboard, LogOut, Menu, Phone, Plus, User } from 'lucide-react';
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useAuth } from '@/context/AuthContext';
-import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger, SheetTitle } from '@/components/ui/sheet';
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger, DropdownMenuSeparator } from '@/components/ui/dropdown-menu';
-import { Menu, X, Phone, Plus, User, LogOut, LayoutDashboard, CalendarDays } from 'lucide-react';
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -36,7 +36,7 @@ export default function Navbar() {
               <Plus className="w-5 h-5 text-white" strokeWidth={3} />
             </div>
             <span className="font-heading font-bold text-lg text-foreground">
-              Lumina <span className="text-medical-blue">Medical</span>
+              Modina Clinic <span className="text-medical-blue">& D. Center</span>
             </span>
           </Link>
 

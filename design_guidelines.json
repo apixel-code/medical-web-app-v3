@@ -1,6 +1,6 @@
 {
   "brand_identity": {
-    "name": "Lumina Medical Center",
+    "name": "Modina Clinic & D. Center",
     "tone": "Professional, Compassionate, Advanced, Trustworthy",
     "archetype": "The Caregiver & The Sage",
     "mission": "To provide world-class medical care with a human touch, leveraging advanced technology for better health outcomes."
@@ -8,12 +8,19 @@
   "typography": {
     "headings": {
       "family": "Outfit, sans-serif",
-      "weights": ["500", "600", "700"],
+      "weights": [
+        "500",
+        "600",
+        "700"
+      ],
       "usage": "Use for all section titles, hero headings, and card titles. Letter-spacing: -0.02em."
     },
     "body": {
       "family": "Inter, sans-serif",
-      "weights": ["400", "500"],
+      "weights": [
+        "400",
+        "500"
+      ],
       "usage": "Use for paragraphs, inputs, and UI elements. Relaxed line-height (1.6)."
     },
     "mono": {
@@ -53,7 +60,10 @@
       "hero_overlay": "linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(248,250,252,1) 100%)",
       "subtle_glow": "radial-gradient(circle at 50% 50%, rgba(14, 165, 233, 0.15), rgba(255, 255, 255, 0))"
     },
-    "forbidden_colors": ["#7351B7", "#1B93A4"]
+    "forbidden_colors": [
+      "#7351B7",
+      "#1B93A4"
+    ]
   },
   "layout_strategies": {
     "spacing_scale": {
@@ -110,18 +120,49 @@
   },
   "motion": {
     "page_transition": {
-      "initial": { "opacity": 0, "y": 20 },
-      "animate": { "opacity": 1, "y": 0 },
-      "exit": { "opacity": 0, "y": -20 },
-      "transition": { "duration": 0.4, "ease": "easeOut" }
+      "initial": {
+        "opacity": 0,
+        "y": 20
+      },
+      "animate": {
+        "opacity": 1,
+        "y": 0
+      },
+      "exit": {
+        "opacity": 0,
+        "y": -20
+      },
+      "transition": {
+        "duration": 0.4,
+        "ease": "easeOut"
+      }
     },
     "hover_effects": {
       "lift": "hover:-translate-y-1 transition-transform duration-300",
       "glow": "hover:shadow-[0_0_20px_rgba(3,105,161,0.3)] transition-shadow duration-300"
     },
     "stagger": {
-      "container": { "hidden": { "opacity": 0 }, "show": { "opacity": 1, "transition": { "staggerChildren": 0.1 } } },
-      "item": { "hidden": { "opacity": 0, "y": 20 }, "show": { "opacity": 1, "y": 0 } }
+      "container": {
+        "hidden": {
+          "opacity": 0
+        },
+        "show": {
+          "opacity": 1,
+          "transition": {
+            "staggerChildren": 0.1
+          }
+        }
+      },
+      "item": {
+        "hidden": {
+          "opacity": 0,
+          "y": 20
+        },
+        "show": {
+          "opacity": 1,
+          "y": 0
+        }
+      }
     }
   },
   "assets": {
